@@ -1,0 +1,160 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline;
+	padding-left:2em;
+	padding-right:2em;
+	
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+nav a:link
+{
+	color: white;
+}
+nav a:visited
+{
+	color: white;
+}
+nav a:hover{
+	color: lightgreen;
+}
+
+.search {
+	margin-center: auto;
+}
+
+.search form {
+	display: flex;
+	flex-direction: row;
+}
+
+.search input[type="text"] {
+	padding: 8px;
+	border: none;
+	border-radius: 4px 0 0 4px;
+}
+
+.search button[type="submit"] {
+	padding: 8px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+}
+
+.cart img {
+	width: 30px;
+	height: auto;
+}
+
+main {
+	background-color: grey;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+}
+
+.categories h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.categories ul {
+	list-style: none;
+}
+
+.categories li {
+	margin-bottom: 10px;
+}
+
+.categories a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.seasonal-products h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.seasonal-products .product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.seasonal-products .product img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.seasonal-products .product h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.seasonal-products .product p {
+	margin-bottom: 10px;
+}
+
+.seasonal-products .product a {
+	padding: 8px 16px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.popular-products h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

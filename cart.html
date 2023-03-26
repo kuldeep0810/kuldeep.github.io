@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Cart</title>
+    <style>
+    
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header	{
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			justify-content: space-between;
+			 text-align: center;
+}
+.nav ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+
+}
+nav li{
+	margin-right: 20px;
+
+}
+nav ul li{
+	display: inline;
+	padding-left:2em;
+	padding-right: 2em;
+}
+nav a 
+{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+nav a:link
+{
+	color: white;
+
+}
+nav a: visited
+{
+	color: white;
+
+}
+nav a:hover{
+	color: lightgreen
+}
+main {
+	background-color: grey;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+}
+.product-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .product-images img {
+    width: 30%;
+  }
+  
+      h1 {
+        text-align: center;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .total {
+        text-align: right;
+        font-weight: bold;
+      }
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+    <div class="product-images">
+        <img src="ct.jpg" alt="Product 1">
+        <img src="crta.jpg" alt="Product 2">
+        <img src="crt.jpg" alt="Product 3">
+    </div>
+    </main>
+    <h1>Shopping Cart</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Product 1</td>
+          <td>$10.00</td>
+          <td>2</td>
+          <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>Product 2</td>
+            <td>$25.00</td>
+            <td>2</td>
+            <td>$50.00</td>
+          </tr>
+          <tr>
+            <td>Product 3</td>
+            <td>$15.00</td>
+            <td>3</td>
+            <td>$45.00</td>
+          </tr>
+          <tr>
+            <td>Product 4</td>
+            <td>$10.00</td>
+            <td>4</td>
+            <td>$40.00</td>
+          </tr>
+        <tr>
+          <td>Product 5</td>
+          <td>$25.00</td>
+          <td>1</td>
+          <td>$25.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" class="total">Total:</td>
+          <td>$45.00</td>
+        </tr>
+      </tfoot>
+    </table>
+    </main>
+<footer>
+  <a href="Email:info@fashion.net">Email:info@fashion.net</a>
+<div class="copyright">
+<p> copyright©2023 My Website</p>
+</footer>
+  </body>
+</html>
